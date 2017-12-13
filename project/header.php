@@ -17,15 +17,11 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
+    <!-- Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
   </head>
@@ -55,12 +51,12 @@
 						<input type="text" name="username" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Username/E-mail">
 						<input type="password" name="password" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Password">
 						<button type="submit" name="login" class="btn btn-primary">Log In</button>
-						</form>';
+						</form>
+						<li class="nav-item mx-0 mx-lg-1">
+						<a class="nav-link py-3 px-0 px-lg-3 rounded" href="signup.php">Sign Up</a>
+						</li>';
 			  }
 			?>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="signup.php">Sign Up</a>
-            </li>
           </ul>
         </div>
       </div>

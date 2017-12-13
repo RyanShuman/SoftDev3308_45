@@ -32,7 +32,7 @@ if (isset($_POST['signup']))
 			}
 			else
 			{
-				$sql = "SELECT * FROM users WHERE user_name='$username' OR user_email = '$email'";
+				$sql = "SELECT * FROM users WHERE user_name='$username' OR user_email = '$email';";
 				$result = mysqli_query($conn, $sql);
 				$results = mysqli_num_rows($result);
 				

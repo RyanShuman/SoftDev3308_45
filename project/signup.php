@@ -25,4 +25,10 @@
         </form>
       </div>
     </header>
+    
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+      </div>
+    </div>
+    
 </html>
